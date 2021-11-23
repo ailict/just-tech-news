@@ -16,5 +16,10 @@
     "url": "https://github.com/ailict/just-tech-news/issues"
   },
   "homepage": "https://github.com/ailict/just-tech-news#readme",
-  "start": "node server.js"
+  "start": "node server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.0-alpha.1"
+  }
 }
